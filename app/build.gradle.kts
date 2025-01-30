@@ -45,4 +45,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    val cameraxVersion = "1.3.0-rc01"
+    implementation (libs.androidx.xcamera.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation (libs.androidx.xcamera.lifecycle)
+    implementation (libs.androidx.xcamera.video)
+    implementation (libs.androidx.xcamera.view)
+    implementation (libs.androidx.xcamera.extensions)
+    implementation (libs.xtensorflow.lite.task.vision)
+    implementation (libs.xtensorflow.lite.gpu.delegate.plugin)
+    implementation (libs.xtensorflow.lite.gpu)
 }
